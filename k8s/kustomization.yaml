@@ -8,12 +8,6 @@ resources:
 - helloworld-gui-service.yaml
 - helloworld-gui-route.yaml
 images:
-- name: helloworld-svc
-  newName: elkouhen/helloworld-svc
-  newTag: latest
-- name: helloworld-gui
-  newName: elkouhen/helloworld-gui
-  newTag: latest
 - name: registry.registry.svc.cluster.local:5000/helloworld-svc
   newTag: v1.0.0
 - name: registry.registry.svc.cluster.local:5000/helloworld-gui
