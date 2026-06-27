@@ -7,7 +7,7 @@ l'état Kubernetes attendu par ArgoCD pour les environnements applicatifs du
 POC.
 
 La vision globale de la plateforme et le rôle des dépôts manifests sont
-décrits dans `../../poc-devops-platform/docs/prd.md`.
+décrits dans `../../platform-cicd/docs/prd.md`.
 
 ## Produit attendu
 
