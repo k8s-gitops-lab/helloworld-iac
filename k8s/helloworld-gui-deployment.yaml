@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: helloworld-gui
-          image: registry.192.168.33.100.nip.io/helloworld-gui
+          image: ghcr.io/k8s-gitops-lab/helloworld-gui
           ports:
             - containerPort: 80
           readinessProbe:
