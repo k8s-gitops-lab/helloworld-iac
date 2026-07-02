@@ -8,7 +8,7 @@ resources:
 - helloworld-gui-service.yaml
 - helloworld-gui-route.yaml
 images:
-- name: ghcr.io/poc-devops-elkouhen/helloworld-svc
+- name: ghcr.io/k8s-gitops-lab/helloworld-svc
   newTag: v1.1.0
-- name: ghcr.io/poc-devops-elkouhen/helloworld-gui
+- name: ghcr.io/k8s-gitops-lab/helloworld-gui
   newTag: v1.1.0

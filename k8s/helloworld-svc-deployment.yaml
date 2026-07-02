@@ -18,7 +18,7 @@ spec:
         - name: ghcr-pull-secret
       containers:
         - name: helloworld-svc
-          image: ghcr.io/poc-devops-elkouhen/helloworld-svc
+          image: ghcr.io/k8s-gitops-lab/helloworld-svc
           ports:
             - containerPort: 8000
           readinessProbe:

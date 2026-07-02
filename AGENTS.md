@@ -35,7 +35,7 @@ helloworld-gui-route.yaml   HTTPRoute Gateway API
   Les valeurs dans `main` représentent l'état prod (`helloworld-svc.192.168.33.100.nip.io`).
 - **Le nom d'image dans les Deployments** doit correspondre exactement au champ
   `name` dans `kustomization.yaml` pour que l'override Kustomize s'applique.
-  Convention : utiliser l'image GHCR complète (`ghcr.io/poc-devops-elkouhen/<svc>`).
+  Convention : utiliser l'image GHCR complète (`ghcr.io/k8s-gitops-lab/<svc>`).
 
 ## Ce qu'il ne faut pas faire
 
