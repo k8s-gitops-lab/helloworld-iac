@@ -14,6 +14,8 @@ spec:
       labels:
         app: helloworld-gui
     spec:
+      imagePullSecrets:
+        - name: ghcr-pull
       containers:
         - name: helloworld-gui
           image: ghcr.io/k8s-gitops-lab/helloworld-gui
