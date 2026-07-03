@@ -14,6 +14,8 @@ spec:
       labels:
         app: helloworld-svc
     spec:
+      imagePullSecrets:
+        - name: ghcr-pull
       containers:
         - name: helloworld-svc
           image: ghcr.io/k8s-gitops-lab/helloworld-svc
