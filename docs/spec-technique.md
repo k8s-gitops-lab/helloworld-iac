@@ -23,7 +23,7 @@ Le script `deploy.py` du template CI charge ce fichier avec PyYAML, met à jour
 ## Routage
 
 Les expositions HTTP sont décrites par des `HTTPRoute`. Elles s'appuient sur
-la Gateway partagée installée par `cluster` et consommée par
+la Gateway partagée installée par `infrastructure` et consommée par
 `platform-cicd`.
 
 ## Branches
