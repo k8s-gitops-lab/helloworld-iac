@@ -7,7 +7,7 @@ l'état Kubernetes attendu par ArgoCD pour les environnements applicatifs du
 POC.
 
 La vision globale de la plateforme et le rôle des dépôts manifests sont
-décrits dans `../../control-plane/docs/prd.md`.
+décrits dans `../../cockpit/docs/prd.md`.
 
 ## Produit attendu
 
