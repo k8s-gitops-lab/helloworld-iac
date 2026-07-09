@@ -43,3 +43,10 @@ helloworld-gui-route.yaml   HTTPRoute Gateway API
 - Ne pas pousser directement sur les branches d'environnement (`dev`, `rec`,
   `preprod`) — ces branches sont alimentées par la CI via `deploy.py`.
 - Ne pas construire d'images depuis ce dépôt.
+
+## Gouvernance du développement
+
+Ce repo fait partie de la plateforme poc-devops : toute contribution suit
+les trois axes de maîtrise (produit, code, architecture) définis dans
+`cockpit/AGENTS.md`, section « Gouvernance du développement » — PRD et
+backlog dans `cockpit/docs/`.
