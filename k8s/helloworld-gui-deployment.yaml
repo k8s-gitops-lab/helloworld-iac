@@ -4,6 +4,7 @@ metadata:
   name: helloworld-gui
   labels:
     app: helloworld-gui
+    app.kubernetes.io/name: helloworld-gui
 spec:
   replicas: 1
   selector:
@@ -13,6 +14,7 @@ spec:
     metadata:
       labels:
         app: helloworld-gui
+        app.kubernetes.io/name: helloworld-gui
     spec:
       imagePullSecrets:
         - name: ghcr-pull

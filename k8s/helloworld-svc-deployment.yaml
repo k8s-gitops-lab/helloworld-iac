@@ -4,6 +4,7 @@ metadata:
   name: helloworld-svc
   labels:
     app: helloworld-svc
+    app.kubernetes.io/name: helloworld-svc
 spec:
   replicas: 1
   selector:
@@ -13,6 +14,7 @@ spec:
     metadata:
       labels:
         app: helloworld-svc
+        app.kubernetes.io/name: helloworld-svc
       annotations:
         # Cles par defaut du chart grafana/k8s-monitoring (annotationAutodiscovery),
         # pas la convention classique prometheus.io/* -- verifie contre
