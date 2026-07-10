@@ -13,6 +13,13 @@ spec:
     metadata:
       labels:
         app: helloworld-svc
+      annotations:
+        # Cles par defaut du chart grafana/k8s-monitoring (annotationAutodiscovery),
+        # pas la convention classique prometheus.io/* -- verifie contre
+        # charts/k8s-monitoring/charts/feature-annotation-autodiscovery/values.yaml.
+        k8s.grafana.com/scrape: "true"
+        k8s.grafana.com/metrics.portNumber: "8000"
+        k8s.grafana.com/metrics.path: "/metrics"
     spec:
       imagePullSecrets:
         - name: ghcr-pull
