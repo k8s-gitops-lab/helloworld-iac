@@ -9,8 +9,8 @@ resources:
 - helloworld-gui-route.yaml
 images:
 - name: ghcr.io/k8s-gitops-lab/helloworld-svc
-  newTag: 2c12dbab
+  newTag: 4dda6f85
   newName: ghcr.io/k8s-gitops-lab/helloworld-svc/snapshot
 - name: ghcr.io/k8s-gitops-lab/helloworld-gui
-  newTag: 2c12dbab
+  newTag: 4dda6f85
   newName: ghcr.io/k8s-gitops-lab/helloworld-gui/snapshot
